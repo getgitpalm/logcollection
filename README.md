@@ -2,6 +2,8 @@
 日志实时采集
 > 1. 配置文件config.ini指定redis地址和tail采集的logpath,
 > 2. logpath为文件的路径,可以指定多个,
-实例:
-多个logpath传入方式
-logpath = D:/goproject/src/logagent/tail/tail.go,logpath = D:/goproject/src/logagent/tail/tail1.go,logpath = D:/goproject/src/logagent/tail/tail2.go
+> 3. 实例:
+  ```
+  多个logpath传入方式
+  logpath = D:/goproject/src/logagent/tail/tail.go,logpath = D:/goproject/src/logagent/tail/tail1.go,logpath = D:/goproject/src/logagent/tail/tail2.go
+  ```
