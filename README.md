@@ -1,6 +1,6 @@
 # logcollection
 日志实时采集
-配置文件config.ini指定redis地址和tail采集的logpath,
+> 1. 配置文件config.ini指定redis地址和tail采集的logpath,
 logpath为文件的路径,可以指定多个,
 实例:
 多个logpath传入方式
